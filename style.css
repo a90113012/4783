@@ -1,0 +1,40 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 500px;
+}
+.box1 {
+    background-color: #DFD6EF;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+    color: #5D378F;
+}
+.box2 {
+    background-color: #DFD6EF;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box1 h2 {
+    margin-top: -3px;
+    font-size: 23px;
+}
+.box2 p {
+    width: 50%;
+    margin-top: -15px;
+}
